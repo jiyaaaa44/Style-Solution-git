@@ -7,6 +7,52 @@
   <link rel="stylesheet" href="style.css">
 <h2 style="color: hotpink;">This is my first edit!</h2>
 <style>
+.services {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #e75480;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #d6336c;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .about {
   padding: 60px 20px;
   background-color: #fff5f8;
@@ -137,6 +183,38 @@
     </p>
   </div>
 </section>
+<section class="services">
+  <div class="services-container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Personal Styling</h3>
+        <p>Discover a tailored approach to personal styling that enhances your unique personality, flatters your body type, and aligns with your lifestyle.</p>
+      </div>
+      <div class="service-card">
+        <h3>Wardrobe Edit</h3>
+        <p>Streamline your closet with a customized wardrobe plan that maximizes versatility and ensures you're always dressed to impress.</p>
+      </div>
+      <div class="service-card">
+        <h3>Makeover Magic</h3>
+        <p>Transform your look and rejuvenate your image with my personalized makeover services, tailored to enhance your natural beauty.</p>
+      </div>
+      <div class="service-card">
+        <h3>Color Analysis</h3>
+        <p>Reveal your unique color palette. Through color analysis, we’ll unveil your distinctive ‘color season’ and curate a palette that complements your natural beauty.</p>
+      </div>
+      <div class="service-card">
+        <h3>Men's Styling</h3>
+        <p>From boardroom to casual weekends, refine your style with personalized guidance tailored to your taste, body type, and lifestyle.</p>
+      </div>
+      <div class="service-card">
+        <h3>Personal Shopping</h3>
+        <p>Let me assist you in selecting pieces that align with your style and seamlessly integrate into your day-to-day, ensuring you look and feel your best.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 </body>
