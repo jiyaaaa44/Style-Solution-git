@@ -1,51 +1,38 @@
-body {
+/* ========== BASE STYLES ========== */
+
+* {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #fff;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif; /* Fancy serif like in the example */
+  background-color: #fffaf6; /* Light beige background */
   color: #333;
+  line-height: 1.6;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #f8f1f4;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #555;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
+a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: inherit;
 }
 
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: url('https://images.unsplash.com/photo-1544717305-2782549b5136') center/cover no-repeat;
-  color: white;
-}
+/* ========== LAYOUT HELPERS ========== */
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #f8f1f4;
-  margin-top: 2rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
