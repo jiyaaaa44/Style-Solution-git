@@ -127,3 +127,37 @@ a {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  background-color: #fdfaf6;
+  color: #333;
+}
+.btn {
+  background-color: #b89e7c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #a78865;
+}
+.book-now {
+  background-color: #efe7dd;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.book-now h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
