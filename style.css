@@ -36,3 +36,49 @@ a {
   margin: 0 auto;
   padding: 0 20px;
 }
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 30px;
+  background-color: #D4A373;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #b17d56;
+}
