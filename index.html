@@ -1,119 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Style Solution</title>
-<link rel="stylesheet" href="style.css">
-
-  
-<h2 style="color: hotpink;">This is my first edit!</h2>
-
-
-
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="hero">
-  <div class="hero-overlay">
-    <h1 class="hero-title">Style Solutions Consulting</h1>
-    <p class="hero-subtitle">Uncover Your Unique Style with Sunita Jaiswal</p>
-    <a href="#services" class="hero-button">Explore Services</a>
-  </div>
-</header>
 
-
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Style Solution</div>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Style Solution</div>
+    <nav>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#book">Book Now</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>Welcome to Style Solution</h1>
-    <p>Your go-to personal stylist</p>
+    <div class="overlay">
+      <h1 class="hero-title">Unleash Your Inner Glow</h1>
+      <p class="hero-subtitle">Personal styling that brings out your true self</p>
+      <a href="#book" class="hero-button">Book a Session</a>
+    </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Personal Styling</h3>
+        <p>Custom looks designed to fit your vibe and body type.</p>
+      </div>
+      <div class="service-card">
+        <h3>Wardrobe Refresh</h3>
+        <p>Declutter and revamp your closet with expert advice.</p>
+      </div>
+      <div class="service-card">
+        <h3>Event Makeovers</h3>
+        <p>Perfect outfits styled for your most important moments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>Hi! I’m [Your Aunt’s Name], a passionate stylist helping women express their beauty and confidence through fashion. Whether it’s a major event or a wardrobe reset, I’m here to make you feel fabulous!</p>
+    </div>
+  </section>
+
+  <!-- Book Now -->
+  <section class="book-now" id="book">
+    <h2>Ready for a Style Glow-Up?</h2>
+    <a href="#" class="btn">Book Now</a>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Style Solution. All rights reserved.</p>
   </footer>
-<section class="hero">
-  <div class="overlay">
-    <h1>Style Solution</h1>
-    <p>Personal Styling That Speaks for You</p>
-    <a href="#contact" class="cta-button">Book Now</a>
-  </div>
-</section>
-<section class="about">
-  <div class="about-container">
-    <h2>About Me</h2>
-    <p>
-      Greetings! I'm <strong>Sunita Jaiswal</strong>, a certified image consultant and the founder behind <em>Style Solutions Consulting</em>,
-      my brainchild project dedicated to helping you uncover and refine your unique personal style.
-    </p>
-    <p>
-      My mission is to create a comfortable, secure environment where we collaborate to achieve your style aspirations.
-      With specialized expertise in image consulting, I guide individuals in discovering their personal style,
-      understanding their body type, and finding their perfect color season. Together, we'll curate your personal
-      style that resonates confidence in every aspect of your life.
-    </p>
-    <p>
-      Beyond image consulting, I am deeply passionate about emotionally supporting individuals on their journey of
-      personal growth, nurturing their confidence, and guiding them towards finding their own happiness.
-    </p>
-    <p>
-      <strong>Thank you</strong> for entrusting me with the journey towards your enhanced personal style.
-      Let’s embark on this transformation together!
-    </p>
-  </div>
-</section>
-<section class="services" id="services">
-  <h2 class="section-title">Our Services</h2>
-  <div class="services-grid">
-    <div class="service-card">
-      <h3>Personal Styling</h3>
-      <p>Discover a tailored approach to personal styling that enhances your unique personality, flatters your body type, and aligns with your lifestyle.</p>
-    </div>
-    <div class="service-card">
-      <h3>Wardrobe Edit</h3>
-      <p>Streamline your closet with a customized wardrobe plan that maximizes versatility and ensures you're always dressed to impress.</p>
-    </div>
-    <div class="service-card">
-      <h3>Makeover Magic</h3>
-      <p>Transform your look and rejuvenate your image with personalized makeover services, tailored to enhance your natural beauty.</p>
-    </div>
-    <div class="service-card">
-      <h3>Color Analysis</h3>
-      <p>Reveal your unique color palette and curate a personalized style that harmonizes with your natural beauty and color season.</p>
-    </div>
-    <div class="service-card">
-      <h3>Men's Styling</h3>
-      <p>Refine your style with expert guidance tailored to your taste, body type, and lifestyle – from boardroom to casual weekends.</p>
-    </div>
-    <div class="service-card">
-      <h3>Personal Shopping</h3>
-      <p>Let me assist you in selecting pieces that align with your style and seamlessly integrate into your wardrobe.</p>
-    </div>
-  </div>
-</section>
-
-<section class="book-now">
-  <h2>Ready for Your Style Transformation?</h2>
-  <a href="#contact" class="btn">Book Now</a>
-</section>
-
-
 
 </body>
 </html>

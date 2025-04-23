@@ -11,24 +11,59 @@ h1, h2, h3 {
   color: #d6336c;
 }
 
+/* === NAVBAR === */
+.navbar {
+  background-color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d6336c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #d6336c;
+}
+
 /* === HERO SECTION === */
 .hero {
   background-image: url('https://images.unsplash.com/photo-1531891437562-4301cf35b7ae');
   background-size: cover;
   background-position: center;
   height: 100vh;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   text-align: center;
 }
 
-.hero .overlay {
+.overlay {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 40px;
   width: 100%;
   height: 100%;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,13 +71,13 @@ h1, h2, h3 {
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  color: #fff;
+  font-size: 3rem;
+  color: white;
   margin-bottom: 10px;
 }
 
 .hero-subtitle {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #f8c5d8;
 }
 
@@ -60,41 +95,6 @@ h1, h2, h3 {
 .hero-button:hover {
   background-color: #ff69b4;
   transform: scale(1.05);
-}
-
-/* === NAVBAR === */
-.navbar {
-  background-color: white;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #d6336c;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-.nav-links a:hover {
-  color: #d6336c;
 }
 
 /* === SERVICES SECTION === */
