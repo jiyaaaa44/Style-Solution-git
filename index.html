@@ -1,72 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Style Solution</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylist | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">Style Solution</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#book">Book Now</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="overlay">
-      <h1 class="hero-title">Unleash Your Inner Glow</h1>
-      <p class="hero-subtitle">Personal styling that brings out your true self</p>
-      <a href="#book" class="hero-button">Book a Session</a>
+  <!-- Hero Slider Section -->
+  <section class="hero-slider">
+    <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1559599075-0987c55e75e9');">
+      <div class="overlay">
+        <h1 class="hero-title">Unlock Your Style</h1>
+        <p class="hero-subtitle">Personalized Styling Services</p>
+        <a href="#book" class="hero-button">Book Now</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1520975695919-cb38dff76b9c');">
+      <div class="overlay">
+        <h1 class="hero-title">Feel Confident</h1>
+        <p class="hero-subtitle">We Bring Out the Best You</p>
+        <a href="#book" class="hero-button">Get Started</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1531891437562-4301cf35b7ae');">
+      <div class="overlay">
+        <h1 class="hero-title">Redefine Elegance</h1>
+        <p class="hero-subtitle">Let Us Style Your Story</p>
+        <a href="#book" class="hero-button">Explore</a>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <h2>Our Services</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Personal Styling</h3>
-        <p>Custom looks designed to fit your vibe and body type.</p>
-      </div>
-      <div class="service-card">
-        <h3>Wardrobe Refresh</h3>
-        <p>Declutter and revamp your closet with expert advice.</p>
-      </div>
-      <div class="service-card">
-        <h3>Event Makeovers</h3>
-        <p>Perfect outfits styled for your most important moments.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="about-container">
-      <h2>About Me</h2>
-      <p>Hi! I’m [Your Aunt’s Name], a passionate stylist helping women express their beauty and confidence through fashion. Whether it’s a major event or a wardrobe reset, I’m here to make you feel fabulous!</p>
-    </div>
-  </section>
-
-  <!-- Book Now -->
-  <section class="book-now" id="book">
-    <h2>Ready for a Style Glow-Up?</h2>
-    <a href="#" class="btn">Book Now</a>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Style Solution. All rights reserved.</p>
-  </footer>
-
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
